@@ -7,6 +7,8 @@ a.color("blue")
 a.penup()
 a.speed(0)
 
+speed=1
+
 def turnleft():
     a.left(30)
 
@@ -21,4 +23,4 @@ while True:
     a.forward("speed")
 
     
-s.mainloop()
+turtle.mainloop()
