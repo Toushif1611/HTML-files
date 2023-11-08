@@ -1,39 +1,25 @@
 import turtle
 
-speed=1
-
 s=turtle.Screen()
 s.bgcolor("black")
 
-a=turtle.Turtle()
-a.color("blue")
-a.penup()
+a=turtle.Turtle("circle")
+a.color("green")
 a.speed(0)
+a.penup()
+a.goto(0, 200)
+a.dy = 0
 
-b=turtle.Turtle()
-b.color("green")
-b.pensize(5)
-b.speed(0)
-b.penup()
-b.goto(-300,-300)
-b.pendown()
-for i in range(4):
-    b.forward(600)
-    b.left(90)
-    b.hideturtle()
-
-def turnleft():
-    a.left(30)
-
-def turnright():
-    a.right(30)
-
-s.listen()
-s.onkeypress(turnleft,"Left")
-s.onkeypress(turnright,"Right")
+gravity = 0.1
 
 while True:
-    a.forward(speed)
+    a.dy -= gravity
+    a.sety(a.ycor() + a.dy)
+    #check for a bounce
+    if a.ycor()<-300:
+        a.dy *=-1
 
-    
-turtle.mainloop()
+
+
+s.mainloop()
+
