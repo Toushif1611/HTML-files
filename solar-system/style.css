@@ -1,0 +1,70 @@
+body{
+    background-color:black;
+}
+div{
+     margin:auto;
+     position:absolute;
+     left:0px;
+     right:0px;
+     top:0px;
+     bottom:0px;
+     width:200px;
+     height:200px;
+     box-shadow:0px 0px 20px 20px black;
+     border:1px dotted;
+     border-radius:100px;
+     animation:ani 12.0s infinite;	     
+
+        }
+.sun{
+     margin:auto;
+     position:absolute;
+     left:20px;
+     right:0px;
+     top:200px;
+     bottom:0px;
+     width:150px;
+     height:150px;
+     background-color:#FFDF00;
+     border:2px dotted #FFB122; 
+     box-shadow:0px 0px 20px 20px #FF0000;
+     animation:ani 10.0s infinite;
+}
+.earth{
+     margin:auto;
+     position:absolute;
+     left:250px;
+     right:0px;
+     top:90px;
+     bottom:0px;
+     width:100px;
+     height:100px;
+     background-color:#75FF81;
+     box-shadow:0px 0px 10px 10px #6CDFC0;
+     animation:ani 10.0s infinite;
+}
+.moon{
+     margin:auto;
+     position:absolute;
+     left:120px;
+     right:0px;
+     top:40px;
+     bottom:0px;
+     width:50px;
+     height:50px;
+     background-color:white;
+     box-shadow:0px 0px 9px 9px silver;
+     animation:ani 1.0s infinite;
+}
+
+@keyframes ani{
+100%{
+    transform:rotate(360deg);
+}
+100%{
+    transform:rotate(360deg);
+}
+100%{
+    transform:rotate(360deg);
+}
+}
