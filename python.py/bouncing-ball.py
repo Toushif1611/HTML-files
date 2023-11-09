@@ -26,6 +26,16 @@ a.dy = 0
 
 gravity = 0.1
 
+def turnleft():
+    a.left(30)
+
+def turnright():
+    a.right(30)
+
+s.listen()
+s.onkeypress(turnleft,"Left")
+s.onkeypress(turnright,"Right")    
+
 while True:
     s.update()
     a.dy -= gravity
