@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(251, 248, 244);
+}
+a{
+    position: relative;
+    left:80%;
+    top: -10px;   
+}
+hr{
+    position: relative;;
+    top: -10px; 
+}
+img{
+    position: relative;
+    left: 60%;
+    top: -50px;
+}
+pre{
+    position: relative;
+    top: 10px;
+}
+
+
