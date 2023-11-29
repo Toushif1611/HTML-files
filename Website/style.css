@@ -4,7 +4,7 @@ body{
 a{
     position: relative;
     left:70%;
-    top: -10px;   
+    top: -20px;   
 }
 hr{
     position: relative;
@@ -12,9 +12,8 @@ hr{
 }
 img{
     position: relative;
-    left: 60%;
+    left: 40%;
     top: -50px;
 }
-
 
 
