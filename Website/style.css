@@ -5,15 +5,21 @@ a{
     position: relative;
     left: 70%;   
 }
-.ceteralign{
+.centeralign{
     position: relative;
     left: 40%;
     top: 50px;
     box-shadow: 0px 10px 10px 2px;
 }
-.quote{
+.price{
     position: relative;
-    left: 10%;
-    top: -20px;
+    left: 41%;
+    top: 50px;
+    background: rgb(122, 160, 255);
+    border-radius: 30px;
+    box-shadow: 0px 3px 3px;
+}
+input:hover{
+    background: aquamarine;
 }
 
