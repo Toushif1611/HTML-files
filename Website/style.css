@@ -1,6 +1,9 @@
 body{
     background-color: rgb(251, 248, 244);
 }
+header{
+    background-color: antiquewhite;
+}
 .link{
     position: relative;
     left: 70%;   
@@ -27,9 +30,6 @@ button:hover{
 h1{
     position: relative;
     left: 40px;
-}
-form{
-    background-color: blanchedalmond;
 }
 footer{
     background-color: black;
