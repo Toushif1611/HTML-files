@@ -4,6 +4,10 @@ body{
 header{
     background-color: antiquewhite;
 }
+h1{
+    position: relative;
+    left: 40px;
+}
 .link{
     position: relative;
     left: 70%;   
@@ -27,12 +31,13 @@ button:hover{
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
-h1{
-    position: relative;
-    left: 40px;
-}
 footer{
     background-color: black;
+}
+pre{
+    color: gray;
+}
+.above{
     color: white;
 }
 
