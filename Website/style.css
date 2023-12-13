@@ -4,13 +4,12 @@ body{
 header{
     background-color: antiquewhite;
 }
-h1{
+input{
     position: relative;
-    left: 40px;
-}
-.link{
-    position: relative;
-    left: 70%;   
+    left: 85%; 
+    background-color: ghostwhite; 
+    border-radius: 10px; 
+    color: #2196f3;
 }
 .centeralign{
     position: relative;
@@ -24,7 +23,7 @@ h1{
     top: 50px;
     background: rgb(122, 160, 255);
     border-radius: 30px;
-    box-shadow: 10px 1px 30px 0px;
+    box-shadow: black 10px 1px 30px 0px;
 }
 button:hover{
     color: #255784;
