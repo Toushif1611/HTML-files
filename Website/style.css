@@ -4,7 +4,7 @@ body{
 header{
     background-color: antiquewhite;
 }
-input{
+button{
     position: relative;
     left: 85%; 
     background-color: ghostwhite; 
@@ -25,7 +25,7 @@ input{
     border-radius: 30px;
     box-shadow: black 10px 1px 30px 0px;
 }
-button:hover{
+input:hover{
     color: #255784;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
