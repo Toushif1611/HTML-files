@@ -23,10 +23,10 @@ div{
     position:absolute;
     left:20px;
     right:0px;
-    top:200px;
+    top:0px;
     bottom:0px;
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     background-color:#FFDF00;
     border:2px dotted #FFB122; 
     box-shadow:0px 0px 20px 20px #FF0000;
@@ -36,12 +36,12 @@ div{
 .earth{
     margin:auto;
     position:absolute;
-    left:350px;
+    left:300px;
     right:0px;
     top:90px;
     bottom:0px;
-    width:100px;
-    height:100px;
+    width:50px;
+    height:50px;
     background-color:#75FF81;
     box-shadow:0px 0px 10px 10px #6CDFC0;
     animation:ani 10.0s infinite;
@@ -50,12 +50,12 @@ div{
 .moon{
     margin:auto;
     position:absolute;
-    left:130px;
+    left:90px;
     right:0px;
     top:40px;
     bottom:0px;
-    width:50px;
-    height:50px;
+    width:10px;
+    height:10px;
     background-color:white;
     box-shadow:0px 0px 9px 9px silver;
     animation:ani 1.0s infinite;
