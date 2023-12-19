@@ -29,3 +29,6 @@ form{
     top:50px;
     bottom:0px;
 }
+button{
+    border-radius: 5px;
+}
